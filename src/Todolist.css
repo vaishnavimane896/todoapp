@@ -1,0 +1,12 @@
+.circle{
+    width: 17px;
+    height:17px;
+    border-radius:50%;
+    background-color: rgb(39, 219, 39);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.circle:hover{
+    background-color: rgb(236, 41, 41);
+}

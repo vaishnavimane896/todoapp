@@ -1,0 +1,103 @@
+* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_div {
+  min-width: 25vw;
+  min-height:40vh;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.center_div h1 {
+  color: #5a2d82;
+  margin-bottom: 20px;
+}
+
+.center_div input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #764ba2;
+  font-size: 16px;
+}
+
+.center_div button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #764ba2;
+  color: white;
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.center_div button:hover {
+  background: #9441e7;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+.todo_style {
+     display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  background:#3ad715;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.todo_style .fa-times:hover {
+  background: darkred;
+  transform: scale(1.1);
+}
+
+.todo_style li {
+  list-style: none;
+  font-size: 17px;
+  color: #333;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 80%;
+  }
+}
